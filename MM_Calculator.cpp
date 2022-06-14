@@ -4,7 +4,7 @@
 * Date : 2020-03-12
 * For : Luxor Students Competition (All levels and NOT individual)
 **/
-#include "Calculator.hpp"
+#include "MM_Calculator.hpp"
 
 void Addition() {
 	float a=0, b=0;
