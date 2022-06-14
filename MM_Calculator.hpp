@@ -1,7 +1,7 @@
 /**
 * Name : MM Caluclator
 * Programmer : Mahmoud Gamal,Mostafa Gamal
-* Date : 2020-03-12
+* Date :13.03.2020
 * For : Luxor Students Competition (All levels and NOT individual)
 **/
 #ifndef MAIN_H
