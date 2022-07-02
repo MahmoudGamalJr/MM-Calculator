@@ -1,7 +1,6 @@
 /**
 * Name : MM Caluclator
 * Programmer : Mahmoud Gamal 
-* Date : 2020-03-12
 * For : Luxor Schools Students Technology Competition (All levels and NOT individual)
 **/
 #include "MM_Calculator_Library.cpp"
