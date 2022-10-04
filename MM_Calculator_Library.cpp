@@ -1,8 +1,3 @@
-/**
-* Name : MM Caluclator
-* Programmer : Mahmoud Gamal
-* For : Luxor Schools Students Technology Competition (All levels and NOT individual)
-**/
 #ifndef MAIN_H
 	#define MAIN_H
 
