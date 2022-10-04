@@ -1,8 +1,4 @@
-/**
-* Name : MM Caluclator
-* Programmer : Mahmoud Gamal 
-* For : Luxor Schools Students Technology Competition (All levels and NOT individual)
-**/
+
 #include "MM_Calculator_Library.cpp"
 
 void Addition() {
