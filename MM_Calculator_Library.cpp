@@ -16,7 +16,7 @@
 	void 	Sine();
 	void 	Cosine();
 	void 	Tangent();
-	void 	help();
+	void 	info();
 	void 	error();
 
 	float 	degree2Radian(float degree);
