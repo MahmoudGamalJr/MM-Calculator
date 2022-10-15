@@ -2,70 +2,70 @@
 #include "MM_Calculator_Library.cpp"
 
 void Addition() {
-	float a=0, b=0;
-	cin >> a;
-	cin >> b;
-	cout << a + b << endl;
+	float first = 0, second = 0;
+	cin >> first;
+	cin >> second;
+	cout << first + second << endl;
 }
 
 void Subtraction() {
-	float a=0, b=0;
-	cin >> a;
-	cin >> b;
-	cout << a - b << endl;
+	float first = 0, second = 0;
+	cin >> first;
+	cin >> second;
+	cout << first - second << endl;
 }
 
 void Multiplication() {
-	float a=0, b=0;
-	cin >> a;
-	cin >> b;
-	cout << a * b << endl;
+	float first = 0, second = 0;
+	cin >> first;
+	cin >> second;
+	cout << first * second << endl;
 }
 
 void Division() {
-	float a=0, b=0;
-	cin >> a;
-	cin >> b;
-	if(b != 0) {
-		cout << a / b << endl ;
+	float first = 0, second = 0;
+	cin >> first;
+	cin >> second;
+	if(second != 0) { // to check if b!=0 because if b was = 0 it will be Runtime Error
+		cout << first / second << endl ;
 	}
 }
 
 void Exponentiation() {
-	float a=0, r=0;
-	int b=0;
-	cin >> a;
-	cin >> b;
-	r=pow(a, b);
-	cout << r << endl;
+	float first = 0, p = 0;
+	int second = 0 ;
+	cin >> first ;
+	cin >> second ;
+	p = pow(first, second);
+	cout << p << endl;
 }
 
 void SquareRoot() {
-	float a=0, r=0;
-	cin >> a;
-	r=sqrt(a);
-	cout << r << endl;
+	float first = 0,  p = 0;
+	cin >> first;
+	p = sqrt(first);
+	cout << p << endl;
 }
 
 void Sine() {
-	float a=0, r=0;
-	cin >> a;
-	r=sin(a);
-	cout << r << endl;
+	float first = 0, p = 0;
+	cin >> first;
+	p = sin(first);
+	cout << p << endl;
 }
 
 void Cosine() {
-	float a=0, r=0;
-	cin >> a;
-	r=cos(a);
-	cout << r << endl;
+	float first = 0, p = 0;
+	cin >> first;
+	p = cos(first);
+	cout << p << endl;
 }
 
 void Tangent() {
-	float a=0, r=0;
-	cin >> a;
-	r=tan(a);
-	cout << r << endl;
+	float first = 0, p = 0;
+	cin >> first;
+	p = tan(first);
+	cout << p << endl;
 }
 
 void help() {
