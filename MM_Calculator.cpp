@@ -68,7 +68,7 @@ void Tangent() {
 	cout << p << endl;
 }
 
-void help() {
+void info() {
         cout << "Welcome In MM Calculator Created By: Mahmoud & Mostafa for Luxor Students Competetion\n";
 	cout << "\n\n";
 	cout << " MM Calculator ------------------------------\n";
