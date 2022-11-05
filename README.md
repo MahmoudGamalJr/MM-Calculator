@@ -1,2 +1,2 @@
-# MM-Calculator using CPP Programming Language                                                          
+# Calculator                                                          
  Calculator with support of +, -, *, /, ^, sin, cos, tan...
