@@ -1,28 +1,32 @@
 
 #include "MM_Calculator_Library.cpp"
 
-void Addition() {
+void Addition() 
+{
 	float first = 0, second = 0;
 	cin >> first;
 	cin >> second;
 	cout << first + second << endl;
 }
 
-void Subtraction() {
+void Subtraction() 
+{
 	float first = 0, second = 0;
 	cin >> first;
 	cin >> second;
 	cout << first - second << endl;
 }
 
-void Multiplication() {
+void Multiplication() 
+{
 	float first = 0, second = 0;
 	cin >> first;
 	cin >> second;
 	cout << first * second << endl;
 }
 
-void Division() {
+void Division() 
+{
 	float first = 0, second = 0;
 	cin >> first;
 	cin >> second;
@@ -31,7 +35,8 @@ void Division() {
 	}
 }
 
-void Exponentiation() {
+void Exponentiation() 
+{
 	float first = 0, p = 0;
 	int second = 0 ;
 	cin >> first ;
@@ -40,35 +45,41 @@ void Exponentiation() {
 	cout << p << endl;
 }
 
-void SquareRoot() {
+void SquareRoot() 
+{
 	float first = 0,  p = 0;
 	cin >> first;
 	p = sqrt(first);
 	cout << p << endl;
 }
 
-void Sine() {
+void Sine() 
+{
 	float first = 0, p = 0;
 	cin >> first;
 	p = sin(first);
 	cout << p << endl;
 }
 
-void Cosine() {
+void Cosine() 
+{
 	float first = 0, p = 0;
 	cin >> first;
 	p = cos(first);
 	cout << p << endl;
 }
 
-void Tangent() {
+void Tangent() 
+{
 	float first = 0, p = 0;
 	cin >> first;
 	p = tan(first);
 	cout << p << endl;
 }
 
-void info() {
+void info() 
+{
+	
         cout << "Welcome In MM Calculator Created By: Mahmoud & Mostafa for Luxor Students Competetion\n";
 	cout << "\n\n";
 	cout << " MM Calculator ------------------------------\n";
@@ -86,14 +97,17 @@ void info() {
 	cout << "\n\n";
 }
 
-void error() {
+void error() 
+{
 	cout << "Error : Input is anonymous!\n";
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
 	unsigned char type;
 	bool flag=true;
-	while(flag) {
+	while(flag) 
+	{
 		cout << "Enter Your type: ";
 		cin >> type;
 		switch(type) {
@@ -135,5 +149,6 @@ int main(int argc, char** argv) {
 			break;
 		}
 	}
+	
 	return 0;
 }
